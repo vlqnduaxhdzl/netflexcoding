@@ -1,0 +1,30 @@
+@import "./variable.css"; 
+@import"./reset.css"; 
+@import "./navigation-bar.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap'); 
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons"); 
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"); 
+*{ box-sizing: border-box; } 
+body{ font-family: 'Roboto', sans-serif; background-color: var(--background-purple); color:white; } 
+input{ border:none; outline:none; appearance:none; } 
+.display-flex-center{ display:flex; justify-content: center; align-items: center; } 
+.position-relative{ position:relative; }
+
+
+.display-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.position-relative {
+    position: relative;
+}
+
+@import "./media-query.css";
+@media (min-width: 768px) {
+    body {
+        padding: 0 10vw;
+    }
+}
+
+
